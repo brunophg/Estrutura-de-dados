@@ -5,7 +5,7 @@ def palindromo(p1, p2):
     else:
         return False
     
-# print(palindromo("amor", "roma"))
+print(palindromo("amor", "roma"))
 
 def DNAtest(string):
     bases = ["A", "T", "C", "G"]
