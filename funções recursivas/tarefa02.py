@@ -5,7 +5,7 @@ def recursiveMDC(x,y):
      else:
           return recursiveMDC(y, x % y)
      
-print(recursiveMDC(48, 18))
+print(f"o MDC recursivo é: {recursiveMDC(48, 18)}");
 
 def recursiveProduto(x, y):
      if x == 0 or y == 0:
@@ -13,7 +13,7 @@ def recursiveProduto(x, y):
      else:
           return x + recursiveProduto(x, y - 1)
 
-print(recursiveProduto(4, 6))
+print(f"O produto recursivo é: {recursiveProduto(4, 6)}");
 
 def recursiveMax(arr, indice, valor_max):
     if valor_max == 0:
@@ -72,5 +72,27 @@ def somaRecursiva(a, b):
 
 a = 2
 b = 3
-print(somaRecursiva(a, b))
+print(f"A soma recursiva é: {somaRecursiva(a, b)}");
 
+
+def recursivenumerodezeros(n):
+    if n == 0:
+        return 1
+    if n < 10:
+        return 0
+    else:
+        if n % 10 == 0:
+            return 1 + recursivenumerodezeros(n // 10)
+        else:
+            return recursivenumerodezeros(n // 10)    
+
+print(f"O numero de zeros de n é: {recursivenumerodezeros(0)}");
+
+
+def somaAlgarismos(n):
+    if n < 10:
+        return n
+    else:
+        return n % 10 + somaAlgarismos(n // 10)
+    
+print(f"A soma dos algarismos: { somaAlgarismos(1234)}")

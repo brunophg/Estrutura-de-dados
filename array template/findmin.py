@@ -1,4 +1,4 @@
-def find_mind(array):
+def find_min(array):
     minimo = array[0]
     for num in array:
         if num < minimo:
@@ -6,4 +6,4 @@ def find_mind(array):
         return minimo
     
 array = [10, 20, 30, 40, 50, 60, 70, 80]
-print(find_mind(array))
+print(find_min(array))

@@ -8,3 +8,6 @@ def find_max(array):
 arr = [34, 25, 89, 92]
 
 print(find_max(arr))
+
+
+    
