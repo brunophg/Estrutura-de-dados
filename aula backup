@@ -1,0 +1,68 @@
+# faça um programa que tenh as opções de:
+# 1-inserir dados numa pilha (append())
+# 2-remover dados da pilha (pop())
+# 3-consultar o topo da pilha (peek())
+# 4-consultar o tamanho da pilha
+# 5-fim de programa
+# (utilizar while)
+
+pilha = []
+opcao = int(input("Digite uma opção"))
+while opcao <= 5:
+    def adicionarPilha(pilha):
+        while len(pilha) < 5:
+            valor = int(input("Digite um valor:"))
+            pilha.append(valor)
+        return pilha
+
+    def consultarTopo(pilha):
+        for i in range(len(pilha)):
+            topo = pilha[-1]
+        return topo
+    
+    if opcao == 1:
+        print(adicionarPilha(pilha))
+
+    elif opcao == 2:
+        print()
+
+        
+
+    pilha = []
+    print(adicionarPilha(pilha))
+    print(removerPilha(pilha))
+    print(consultarTopo(pilha))
+# faça um programa que tenh as opções de:
+# 1-inserir dados numa pilha (append())
+# 2-remover dados da pilha (pop())
+# 3-consultar o topo da pilha (peek())
+# 4-consultar o tamanho da pilha
+# 5-fim de programa
+# (utilizar while)
+
+pilha = []
+opcao = int(input("Digite uma opção"))
+while opcao <= 5:
+    def adicionarPilha(pilha):
+        while len(pilha) < 5:
+            valor = int(input("Digite um valor:"))
+            pilha.append(valor)
+        return pilha
+
+    def consultarTopo(pilha):
+        for i in range(len(pilha)):
+            topo = pilha[-1]
+        return topo
+    
+    if opcao == 1:
+        print(adicionarPilha(pilha))
+
+    elif opcao == 2:
+        print()
+
+        
+
+    pilha = []
+    print(adicionarPilha(pilha))
+    print(removerPilha(pilha))
+    print(consultarTopo(pilha))
