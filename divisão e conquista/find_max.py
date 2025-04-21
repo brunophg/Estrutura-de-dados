@@ -15,5 +15,5 @@ def find_max(arr):
             
      return body(arr,0,len(arr)-1)
 
-arr = [12, 3, 5, 7, 19, 2, 11]
+arr = [12, 3, 5, 7, 19, 11]
 print(find_max(arr))
